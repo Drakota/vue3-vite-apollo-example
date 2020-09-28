@@ -1,0 +1,10 @@
+schema: ${SCHEMA_PATH}
+documents: src/gql/**/*.ts
+generates:
+  src/gql/index.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-vue-apollo
+    config:
+      gqlImport: apollo-boost#gql

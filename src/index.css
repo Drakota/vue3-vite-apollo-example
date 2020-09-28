@@ -1,0 +1,12 @@
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Roboto";
+  color: white;
+}
+
+html {
+  background: #0a1924;
+}
